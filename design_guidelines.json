@@ -1,0 +1,180 @@
+{
+  "identity": {
+    "name": "Sewawala.com",
+    "mission": "To provide trustworthy, doorstep home and vehicle services with a modern, friction-free experience.",
+    "tone": "Trustworthy, Efficient, Accessible, Indian-Modern",
+    "target_audience": "Local Indian homeowners and vehicle owners seeking reliable repairs and services."
+  },
+  "typography": {
+    "primary_font": "Manrope",
+    "secondary_font": "Inter",
+    "heading_styles": {
+      "h1": "text-4xl md:text-6xl font-bold tracking-tight text-slate-900",
+      "h2": "text-3xl md:text-4xl font-bold tracking-tight text-slate-900",
+      "h3": "text-2xl font-semibold text-slate-800",
+      "h4": "text-xl font-semibold text-slate-800"
+    },
+    "body_styles": {
+      "base": "text-base text-slate-600 leading-relaxed",
+      "small": "text-sm text-slate-500",
+      "large": "text-lg text-slate-700 font-medium"
+    }
+  },
+  "colors": {
+    "theme": "light",
+    "palette": {
+      "primary": {
+        "DEFAULT": "#0284C7",
+        "foreground": "#FFFFFF",
+        "hover": "#0369A1",
+        "light": "#E0F2FE",
+        "description": "Sky 600 - Trustworthy, Service-oriented Blue"
+      },
+      "secondary": {
+        "DEFAULT": "#F97316",
+        "foreground": "#FFFFFF",
+        "hover": "#EA580C",
+        "light": "#FFEDD5",
+        "description": "Orange 500 - Energy, Action, 'Book Now' Highlighting"
+      },
+      "background": {
+        "default": "#F8FAFC",
+        "paper": "#FFFFFF",
+        "subtle": "#F1F5F9"
+      },
+      "text": {
+        "primary": "#0F172A",
+        "secondary": "#64748B",
+        "muted": "#94A3B8"
+      },
+      "border": "#E2E8F0",
+      "success": "#22C55E",
+      "warning": "#F59E0B",
+      "error": "#EF4444"
+    }
+  },
+  "layout_strategy": {
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "grid_system": {
+      "services_bento": "grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6",
+      "features": "grid grid-cols-1 md:grid-cols-3 gap-8",
+      "form_layout": "max-w-2xl mx-auto bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-100"
+    },
+    "spacing": {
+      "section_padding": "py-16 md:py-24",
+      "element_gap": "gap-4"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-lg shadow-sm transition-all hover:-translate-y-0.5 active:translate-y-0 active:shadow-none",
+      "secondary": "bg-white hover:bg-slate-50 text-slate-900 border border-slate-200 font-medium py-3 px-6 rounded-lg transition-colors",
+      "ghost": "text-slate-600 hover:text-slate-900 hover:bg-slate-100 font-medium py-2 px-4 rounded-lg"
+    },
+    "cards": {
+      "service_card": "group relative bg-white rounded-xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-md transition-all hover:border-blue-200 cursor-pointer",
+      "review_card": "bg-slate-50 p-6 rounded-xl border border-slate-100"
+    },
+    "inputs": {
+      "default": "flex h-12 w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm ring-offset-white file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-slate-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+    }
+  },
+  "images": {
+    "hero": {
+      "url": "https://images.pexels.com/photos/5463582/pexels-photo-5463582.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Professional technician servicing AC unit",
+      "category": "Hero Background"
+    },
+    "services": {
+      "ac_service": {
+        "url": "https://images.pexels.com/photos/5463575/pexels-photo-5463575.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "AC Service & Repair"
+      },
+      "plumbing": {
+        "url": "https://images.pexels.com/photos/7327156/pexels-photo-7327156.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "Plumbing Services"
+      },
+      "tv_repair": {
+        "url": "https://images.pexels.com/photos/4440621/pexels-photo-4440621.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "TV Service & Repair"
+      },
+      "washing_machine": {
+        "url": "https://images.unsplash.com/photo-1758279745240-b75977c88fa8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzF8MHwxfHNlYXJjaHwyfHx3YXNoaW5nJTIwbWFjaGluZSUyMHJlcGFpciUyMHRlY2huaWNpYW4lMjBsYXVuZHJ5JTIwcm9vbXxlbnwwfHx8fDE3NzQxNjExOTd8MA&ixlib=rb-4.1.0&q=85",
+        "alt": "Washing Machine Service"
+      },
+      "cctv": {
+        "url": "https://images.pexels.com/photos/5966513/pexels-photo-5966513.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "CCTV Installation & Service"
+      },
+      "car_wash": {
+        "url": "https://images.pexels.com/photos/6872577/pexels-photo-6872577.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "Car Washing Service"
+      },
+      "electrician": {
+        "url": "https://images.pexels.com/photos/5691589/pexels-photo-5691589.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "Electrical Services"
+      },
+      "ro_purifier": {
+        "url": "https://images.pexels.com/photos/6857798/pexels-photo-6857798.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "RO Water Purifier Service"
+      },
+      "refrigerator": {
+        "url": "https://images.pexels.com/photos/5146918/pexels-photo-5146918.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "Refrigerator Service"
+      },
+      "car_rental": {
+        "url": "https://images.unsplash.com/photo-1760162754961-ed27f26b394f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzOTB8MHwxfHNlYXJjaHwzfHxjYXIlMjByZW50YWwlMjB0cmF2ZWwlMjByb2FkJTIwdHJpcHxlbnwwfHx8fDE3NzQxNjEyMTB8MA&ixlib=rb-4.1.0&q=85",
+        "alt": "Car Rental Services"
+      },
+      "geyser": {
+        "url": "https://images.pexels.com/photos/6436774/pexels-photo-6436774.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "Geyser Service"
+      },
+       "petrol_car": {
+        "url": "https://images.pexels.com/photos/6369306/pexels-photo-6369306.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "Petrol Car Rental"
+      },
+      "diesel_car": {
+        "url": "https://images.pexels.com/photos/36451132/pexels-photo-36451132.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "Diesel Car Rental"
+      }
+    }
+  },
+  "iconography": {
+    "library": "lucide-react",
+    "style": "Stroke width 1.5px, size 24px for standard icons, 48px for hero features",
+    "mapping": {
+      "AC Service": "AirVent",
+      "TV Service": "Tv",
+      "Washing Machine": "Waves",
+      "RO Service": "Droplets",
+      "Refrigerator": "Refrigerator",
+      "Car Wash": "CarFront",
+      "CCTV": "Cctv",
+      "Car Rental": "Car",
+      "Plumbing": "Wrench",
+      "Electrical": "Zap",
+      "Geyser": "Thermometer"
+    }
+  },
+  "instructions_to_main_agent": [
+    "Use 'lucide-react' for all icons.",
+    "Implement the 'Manrope' font from Google Fonts.",
+    "Ensure all buttons have high contrast (Orange for primary actions).",
+    "The Booking Form must be simple: Select Service -> Date/Time -> Address -> Confirm.",
+    "Use the specific image URLs provided for each service card.",
+    "The 'Services' page should be divided into 'Home Services' and 'Vehicle Services' sections.",
+    "Do not use generic gradients. Use flat colors or subtle slate gradients (#F8FAFC to #F1F5F9).",
+    "Ensure mobile responsiveness is prioritized (stack columns on mobile).",
+    "Integrate WhatsApp button (floating or distinct CTA) as requested."
+  ],
+  "universal_guidelines": [
+    "You tend to converge toward generic, 'on distribution' outputs. Avoid this.",
+    "Don't make generic centered layouts, simplistic gradients, and uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy.",
+    "Use glass-morphism effects with backdrop filters (12-24px blur) where appropriate (e.g., sticky headers).",
+    "Every interaction needs micro-animations - hover states, transitions.",
+    "Use 2-3x more spacing than feels comfortable. Cramped designs look cheap.",
+    "All interactive elements MUST include a 'data-testid' attribute."
+  ]
+}
