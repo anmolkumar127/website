@@ -69,13 +69,13 @@ export default function Services() {
     {
       name: "Diesel Car Rental",
       icon: Car,
-      description: "Affordable diesel car rental with driver. Daily and monthly packages available.",
+      description: "Affordable diesel car rental with driver at ₹40/km. Daily and monthly packages available.",
       image: "https://images.pexels.com/photos/36451132/pexels-photo-36451132.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
       name: "Petrol Car Rental",
       icon: Car,
-      description: "Comfortable petrol car rental for local and outstation trips with flexible pricing.",
+      description: "Comfortable petrol car rental at ₹50/km for local and outstation trips with flexible pricing.",
       image: "https://images.pexels.com/photos/6369306/pexels-photo-6369306.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
   ];
