@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-03-22T06:40:54.593178",
+  "total_tests": 8,
+  "passed_tests": 8,
+  "success_rate": "100.0%",
+  "results": [
+    {
+      "test": "API Root Endpoint",
+      "success": true,
+      "details": "Status: 200, Response: {\"message\":\"Sewawala API\"}"
+    },
+    {
+      "test": "Create Booking",
+      "success": true,
+      "details": "Booking created with ID: 29227c33-b47f-43be-a7a0-89641e28c83b"
+    },
+    {
+      "test": "Get All Bookings",
+      "success": true,
+      "details": "Retrieved 1 bookings"
+    },
+    {
+      "test": "Update Booking Status",
+      "success": true,
+      "details": "Status updated to: confirmed"
+    },
+    {
+      "test": "Create Contact Message",
+      "success": true,
+      "details": "Contact created with ID: dea9c417-a3e5-44f5-81a5-d073a6a7a541"
+    },
+    {
+      "test": "Get All Contact Messages",
+      "success": true,
+      "details": "Retrieved 1 contact messages"
+    },
+    {
+      "test": "Invalid Booking Validation",
+      "success": true,
+      "details": "Status: 422 (Expected 422 for validation error)"
+    },
+    {
+      "test": "Non-existent Booking Update",
+      "success": true,
+      "details": "Status: 404 (Expected 404 for non-existent booking)"
+    }
+  ]
+}
