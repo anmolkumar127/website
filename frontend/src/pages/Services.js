@@ -63,7 +63,7 @@ export default function Services() {
     {
       name: "Car Washing Service",
       icon: CarFront,
-      description: "Premium car washing, interior cleaning, and detailing at your doorstep.",
+      description: "Premium car washing at your doorstep. Exterior Wash: ₹200 | Full Cleaning (Wash + Interior Vacuum): ₹300",
       image: "https://images.pexels.com/photos/6872577/pexels-photo-6872577.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
