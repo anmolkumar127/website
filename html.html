@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sewawala - Home Services in Bhagalpur</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h2><i class="fas fa-tools"></i> Sewawala</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#login" class="login-btn">Login</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Trusted Home Services in Bhagalpur</h1>
+            <p>Professional technicians at your doorstep. Book now for AC, plumbing, electrical & more!</p>
+            <div class="hero-buttons">
+                <button class="cta-btn" onclick="openBookingModal()">Book Service <i class="fas fa-arrow-right"></i></button>
+                <button class="secondary-btn" onclick="openTechnicianModal()">Join as Technician</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Technician">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services in Bhagalpur</h2>
+            <div class="services-grid">
+                <div class="service-card" data-service="Petrol Car Rental">
+                    <i class="fas fa-car"></i>
+                    <h3>Petrol Car Rental</h3>
+                    <p>₹800/day</p>
+                </div>
+                <div class="service-card" data-service="Diesel Car Rental">
+                    <i class="fas fa-car-side"></i>
+                    <h3>Diesel Car Rental</h3>
+                    <p>₹900/day</p>
+                </div>
+                <div class="service-card" data-service="Car Washing">
+                    <i class="fas fa-car-wash"></i>
+                    <h3>Car Washing</h3>
+                    <p>₹200 onwards</p>
+                </div>
+                <div class="service-card" data-service="CCTV Service">
+                    <i class="fas fa-video"></i>
+                    <h3>CCTV Service</h3>
+                    <p>₹500 onwards</p>
+                </div>
+                <div class="service-card" data-service="Geyser Service">
+                    <i class="fas fa-hot-tub"></i>
+                    <h3>Geyser Service</h3>
+                    <p>₹300 onwards</p>
+                </div>
+                <div class="service-card" data-service="Electrical Services">
+                    <i class="fas fa-plug"></i>
+                    <h3>Electrical Services</h3>
+                    <p>₹250 onwards</p>
+                </div>
+                <div class="service-card" data-service="Plumbing Services">
+                    <i class="fas fa-wrench"></i>
+                    <h3>Plumbing Services</h3>
+                    <p>₹200 onwards</p>
+                </div>
+                <div class="service-card" data-service="Refrigerator Service">
+                    <i class="fas fa-snowflake"></i>
+                    <h3>Refrigerator Service</h3>
+                    <p>₹400 onwards</p>
+                </div>
+                <div class="service-card" data-service="RO Services">
+                    <i class="fas fa-tint"></i>
+                    <h3>RO Services</h3>
+                    <p>₹350 onwards</p>
+                </div>
+                <div class="service-card" data-service="Washing Machine Repair">
+                    <i class="fas fa-tshirt"></i>
+                    <h3>Washing Machine Repair</h3>
+                    <p>₹450 onwards</p>
+                </div>
+                <div class="service-card" data-service="TV Repair">
+                    <i class="fas fa-tv"></i>
+                    <h3>TV Repair</h3>
+                    <p>₹500 onwards</p>
+                </div>
+                <div class="service-card" data-service="AC Service">
+                    <i class="fas fa-fan"></i>
+                    <h3>AC Service</h3>
+                    <p>₹600 onwards</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat">
+                    <h3>500+</h3>
+                    <p>Happy Customers</p>
+                </div>
+                <div class="stat">
+                    <h3>50+</h3>
+                    <p>Expert Technicians</p>
+                </div>
+                <div class="stat">
+                    <h3>24x7</h3>
+                    <p>Service Available</p>
+                </div>
+                <div class="stat">
+                    <h3>Bhagalpur</h3>
+                    <p>Only District Coverage</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <h3>jaicom.om@gmail.com</h3>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <h3>+91 85410 51981</h3>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Bhagalpur, Bihar</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeLoginModal()">&times;</span>
+            <h2>Customer Login</h2>
+            <div class="otp-login">
+                <input type="tel" id="mobileNumber" placeholder="Enter Mobile Number" maxlength="10">
+                <button onclick="loginWithOTP()" class="login-otp-btn">Send OTP</button>
+            </div>
+            <div id="otpSection" style="display: none;">
+                <input type="text" id="otpInput" placeholder="Enter 4-digit OTP" maxlength="4">
+                <button onclick="verifyOTP()" class="login-otp-btn">Verify & Login</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Booking Modal -->
+    <div id="bookingModal" class="modal">
+        <div class="modal-content large">
+            <span class="close" onclick="closeBookingModal()">&times;</span>
+            <h2>Book Service</h2>
+            <div class="booking-form">
+                <select id="serviceSelect">
+                    <option value="">Select Service</option>
+                </select>
+                <input type="text" id="customerName" placeholder="Your Name">
+                <input type="tel" id="customerMobile" placeholder="Mobile Number">
+                <input type="text" id="address" placeholder="Complete Address in Bhagalpur">
+                <textarea id="problemDesc" placeholder="Describe your problem"></textarea>
+                <button onclick="bookService()" class="book-btn">Book Now - FREE</button>
+                <p class="no-payment"><i class="fas fa-check-circle"></i> No Online Payment Required</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Technician Modal -->
+    <div id="technicianModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeTechnicianModal()">&times;</span>
+            <h2>Join as Technician</h2>
+            <p>No fees, work on your schedule!</p>
+            <div class="technician-form">
+                <input type="text" placeholder="Full Name">
+                <input type="tel" placeholder="Mobile Number">
+                <select>
+                    <option>Petrol Car Rental</option>
+                    <option>Diesel Car Rental</option>
+                    <option>Car Washing</option>
+                    <option>CCTV Service</option>
+                    <option>Geyser Service</option>
+                    <option>Electrical Services</option>
+                    <option>Plumbing Services</option>
+                    <option>Refrigerator Service</option>
+                    <option>RO Services</option>
+                    <option>Washing Machine Repair</option>
+                    <option>TV Repair</option>
+                    <option>AC Service</option>
+                </select>
+                <input type="text" placeholder="Experience (Years)">
+                <input type="text" placeholder="Location in Bhagalpur">
+                <button onclick="applyTechnician()" class="apply-btn">Apply Now</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Track Service Modal -->
+    <div id="trackModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeTrackModal()">&times;</span>
+            <h2>Track Your Service</h2>
+            <input type="tel" id="trackMobile" placeholder="Enter Mobile Number">
+            <button onclick="trackService()" class="track-btn">Track</button>
+            <div id="trackResult"></div>
+        </div>
+    </div>
+
+    <!-- Admin Modal -->
+    <div id="adminModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeAdminModal()">&times;</span>
+            <h2>Admin Panel</h2>
+            <div class="admin-login">
+                <input type="password" id="adminPassword" placeholder="Enter Admin Password">
+                <button onclick="loginAdmin()">Login</button>
+            </div>
+            <div id="adminPanel" style="display: none;">
+                <h3>Manage Services</h3>
+                <div id="serviceRequests"></div>
+                <button onclick="refreshRequests()">Refresh</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
